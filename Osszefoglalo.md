@@ -6,6 +6,8 @@ A feladatom egy plaftformer játék implemetálása, Unity 2D keretrendszerben. 
 
 A játék lényege, hogy a karaktert juttassuk el a pálya végéig, úgy hogy közben nem szabad leesni a pályáról és el kell kerülni az ellenfeleket. Ha a játékos "meghal", akkor visszakerül a kiindulási helyére, ahonnan újra kell kezdeni a pályát.
 
+![image](Pictures/p1.png "Demo")
+
 Felhasznált assetek:
  
 - [Free Platform Game Assets](https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838)
