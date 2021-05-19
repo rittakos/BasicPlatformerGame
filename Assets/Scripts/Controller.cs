@@ -13,6 +13,11 @@ public class Controller : MonoBehaviour
 	public Transform playerBottom;                          
 	public Transform playerTop;
 	public Transform levelBottom;
+	public bool lastLevel;
+
+	public AudioSource dieAudioSource;
+	public AudioSource winAudioSource;
+	public AudioSource jumpAudioSource;
 
 	private Rigidbody2D rigidbody;
 
@@ -36,15 +41,24 @@ public class Controller : MonoBehaviour
 			if (colliders[i].gameObject.tag == "Level")
 				onGround = true;
 			else if (colliders[i].gameObject.tag == "Border" || colliders[i].gameObject.tag == "Enemy")
+			{
+				dieAudioSource.Play();
 				reset();
+			}
 			else if (colliders[i].gameObject.tag == "Win")
+			{
+				winAudioSource.Play();
 				end();
+			}
 		}
 	}
 
 	void end()
     {
-		SceneManager.LoadScene(sceneName: "Win");
+		if(lastLevel)
+			SceneManager.LoadScene(sceneName: "Win2");
+		else
+			SceneManager.LoadScene(sceneName: "Win");
 	}
 
 	public void reset()
@@ -67,6 +81,7 @@ public class Controller : MonoBehaviour
 		{
 			onGround = false;
 			rigidbody.AddForce(new Vector2(0.0f, jumpForce));
+			jumpAudioSource.Play();
 		}
 	}
 

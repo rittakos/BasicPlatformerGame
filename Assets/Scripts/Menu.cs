@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public string nextScene;
+    public string currentScene;
+
     public void restart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(currentScene);
+    }
+
+    public void nextLevel()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 
 

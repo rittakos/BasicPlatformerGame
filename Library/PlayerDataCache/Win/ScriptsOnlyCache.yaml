@@ -24,13 +24,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -69,6 +62,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -78,17 +75,84 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 604}
     - Class: 114
-      Script: {instanceID: 2020}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 4562}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 29266}
+      Script: {instanceID: 4472}
     - Class: 114
-      Script: {instanceID: 34600}
+      Script: {instanceID: 4566}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 604}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
+      Script: {instanceID: 2022}
+    - Class: 114
+      Script: {instanceID: 2592}
+    - Class: 114
+      Script: {instanceID: 2972}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -123,19 +187,64 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 2074}
+      Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2760}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 40974}
+      Script: {instanceID: 4630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Win2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1486}
+    - Class: 114
+      Script: {instanceID: 2076}
+    - Class: 114
+      Script: {instanceID: 2446}
+    - Class: 114
+      Script: {instanceID: 2592}
+    - Class: 114
+      Script: {instanceID: 2762}
+    - Class: 114
+      Script: {instanceID: 2972}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 4630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -215,6 +324,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: a22eed7ba2227782c30f9e01d3ff920f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyCamera
+  - hash:
+      serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -245,7 +360,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: d51f39816ff22eca130b7c9d905b6e1e
+      Hash: 567d8a475f3ef9de26b31314c9f4f5a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Controller
@@ -635,6 +750,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: ba09a3b8cc15bf0ec6fd3f1f8268e010
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyMovement
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -651,6 +772,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 505e70463c9ab803d5427027b1e2ca78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -681,26 +808,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: a22eed7ba2227782c30f9e01d3ff920f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MyCamera
-  - hash:
-      serializedVersion: 2
-      Hash: ba09a3b8cc15bf0ec6fd3f1f8268e010
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Menu
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Win.unity
-  playerPath: D:/BME/Szorakoztato/PlatformerGame/Build/PlatformerGame.exe
+  - Assets/Scenes/Scene2.unity
+  - Assets/Scenes/Win2.unity
+  playerPath: D:/BME/Szorakoztato/BasicPlatformerGame/Build/PlatformerGame.exe

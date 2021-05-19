@@ -8,6 +8,7 @@ TagManager:
   - Level
   - Enemy
   - Win
+  - WinZone
   layers:
   - Default
   - TransparentFX
